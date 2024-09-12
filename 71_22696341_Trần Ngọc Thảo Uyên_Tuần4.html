@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing:   
+ border-box;
+      padding: 0px;
+      margin: 0px auto;
+    }
+
+    .wrapper {
+      width: 960px;
+      height: 700px;
+      box-sizing: border-box;
+      background-color: antiquewhite;
+    }
+
+    header {
+      background-color: #294e79;
+      width: 960px;
+      height: 150px;
+      position: relative;
+    }
+
+    header img {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+    header .ph {
+  position: absolute;
+  top: 50px;
+  left: 120px;
+  color: white;
+}
+
+header h1 {
+  position: absolute;
+  top: 10px;
+  left: 120px;
+  color: white;
+}
+
+header #frm1 {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  background-color: rgb(86, 138, 184);
+  color: azure;
+}
+
+header #frm1 input {
+  background-color: rgb(9, 32, 53);
+}
+
+header #frm1 button {
+  background-color: rgb(9, 32, 53);
+}
+
+nav {
+  position: absolute;
+  bottom: 0px;
+  left: 400px;
+}
+.menu li {
+  display: inline-table;
+  background-color: #688eb9;
+  height: 50px;
+  line-height: 50px;
+  margin: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.menu a {
+  color: aliceblue;
+  font-weight: bold;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.menu li:hover {
+  background-color: azure;
+}
+
+.menu li:hover a {
+  color: blue;
+}
+
+.content {
+  background-color: #dae0e7;
+  width: 960px;
+  height: 450px;
+}
+footer {
+  background-color: #294e79;
+  width: 960px;
+  height: 100px;
+  position: relative;
+}
+
+section {
+  height: 100%;
+  width: 70%;
+  background-color: antiquewhite;
+  float: left;
+}
+
+aside {
+  height: 100%;
+  width: 30%;
+  background-color: rgb(190, 166, 133);
+  float: left;
+}
+
+  </style>
+</head>
+<body>
+    <div class="wrapper">
+      <header>
+        <img src="../img/flower.png" alt="" srcset="" height="100" width="80">
+        <h1>FlowerBox 360</h1>
+        <p class="ph">...to get your daily close of luxury roses!</p>
+        <form action="" method="get" id="frm1">
+          <input type="search" name="txts" id="txts" placeholder="Flowers Services" style="color: aliceblue;">
+          <button type="submit" style="color: aliceblue;">Go</button>
+        </form>
+        <nav>
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Promotion</a></li>
+            <li><a href="#">Gift Baskets</a></li>
+            <li><a href="#">Flowers Services</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="content">
+        <section>
+        </section>
+        <aside>
+        </aside>
+      </div>
+      <footer></footer>
+    </div>
+  </body>
+  </html>
